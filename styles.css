@@ -14,11 +14,30 @@ body {
 }
 
 header {
+    position: relative;
     background-color: #4CAF50;
     color: white;
     padding: 1.5em 0;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-image {
+    position: absolute;
+    top: 35px;
+}
+
+.header-image.left {
+    left: 50px;
+}
+
+.header-image.right {
+    right: 50px;
+}
+
+.header-image img {
+    width: 150px; /* Adjust the size as needed */
+    height: auto;
 }
 
 header h1 {
@@ -127,22 +146,6 @@ footer {
     width: 150px;
     height: 150px;
     object-fit: cover;
-}
-
-/* Add styles for the platform images */
-.platforms {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.platforms a {
-    margin: 0 10px;
-}
-
-.platforms img {
-    width: 50px; /* Adjust the width as needed */
-    height: auto;
 }
 
 /* Add styles for the platform images */
