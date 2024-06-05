@@ -24,20 +24,20 @@ header {
 
 .header-image {
     position: absolute;
-    top: 15px;
+    top: 10px;
 }
 
 .header-image.left {
-    left: 15px;
+    left: 10px;
 }
 
 .header-image.right {
-    right: 15px;
+    right: 10px;
 }
 
 .header-image img {
-    width: 50px; /* Adjust the size as needed */
-    height: auto;
+    width: 50px; /* Ensure the width is set in pixels */
+    height: auto; /* Maintain aspect ratio */
 }
 
 header h1 {
@@ -83,83 +83,4 @@ section {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    position: relative;
-    scroll-margin-top: 80px; /* Space for the sticky header */
-}
-
-section:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-h2 {
-    color: #4CAF50;
-    margin-bottom: 0.5em;
-    font-size: 2em;
-    border-bottom: 2px solid #4CAF50;
-    display: inline-block;
-    padding-bottom: 0.2em;
-}
-
-p {
-    margin: 1em 0;
-    font-size: 1.1em;
-}
-
-ul {
-    margin: 1em 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-ul li {
-    background: #4CAF50;
-    color: white;
-    margin: 0.5em 0;
-    padding: 0.5em;
-    border-radius: 5px;
-    transition: background 0.3s ease;
-}
-
-ul li:hover {
-    background: #45a049;
-}
-
-footer {
-    text-align: center;
-    padding: 1.5em 0;
-    background-color: #1f1f1f;
-    margin-top: 2em;
-    font-size: 0.9em;
-    color: #999;
-}
-
-/* About Section */
-.about-container {
-    display: flex;
-    align-items: center;
-}
-
-.about-container img {
-    border-radius: 50%;
-    margin-right: 20px;
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-}
-
-/* Add styles for the platform images */
-.platforms {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.platforms a {
-    margin: 0 10px;
-}
-
-.platforms img {
-    width: 50px; /* Adjust the width as needed */
-    height: auto;
-}
+    position
