@@ -24,15 +24,15 @@ header {
 
 .header-image {
     position: absolute;
-    top: 35px;
+    top: 15px;
 }
 
 .header-image.left {
-    left: 50px;
+    left: 15px;
 }
 
 .header-image.right {
-    right: 50px;
+    right: 15px;
 }
 
 .header-image img {
