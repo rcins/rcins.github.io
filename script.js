@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
     const button = document.createElement('button');
-    button.textContent = 'Click Me!';
+    button.textContent = 'Nothing to see here..';
     button.addEventListener('click', function() {
-        alert('Hello, welcome to my personal website!');
+        alert('Thanks for checking out my site! ');
     });
     document.body.appendChild(button);
 });
